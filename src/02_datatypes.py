@@ -13,9 +13,25 @@ y = "7"
 
 # Write a print statement that combines x + y into the integer value 12
 
-# YOUR CODE HERE
+def int_val():
+    print(x + int(y))
 
 
 # Write a print statement that combines x + y into the string value 57
 
-# YOUR CODE HERE
+def string_val():
+    print(str(x) + y)
+
+def error_proof():
+
+    try:
+        x + y
+    except(TypeError):
+        print(
+            """You received a type error!
+            You can't add a string and an integer together.""")
+
+if __name__ == "__main__":
+    error_proof()
+    int_val()
+    string_val()
