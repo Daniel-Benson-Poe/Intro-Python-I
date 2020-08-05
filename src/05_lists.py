@@ -1,8 +1,10 @@
-# For the exercise, look up the methods and functions that are available for use
+# For the exercise, look up the methods and
+# functions that are available for use
 # with Python lists.
 
 x = [1, 2, 3]
 y = [8, 9, 10]
+
 
 def lists():
     # For the following, DO NOT USE AN ASSIGNMENT (=).

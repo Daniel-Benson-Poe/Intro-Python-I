@@ -27,7 +27,9 @@ def error_proof():
     try:
         x + y
     except(TypeError):
-        print("You received a type error! You can't add a string and an integer together.")
+        print(
+            """You received a type error!
+            You can't add a string and an integer together.""")
 
 if __name__ == "__main__":
     error_proof()
